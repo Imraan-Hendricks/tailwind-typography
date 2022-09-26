@@ -1,3 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .text-display {
+    @apply font-normal text-7xl sm:text-8xl leading-tight tracking-tight;
+  }
+
+  .text-title {
+    @apply font-semibold text-3xl sm:text-4xl leading-tight tracking-normal;
+  }
+
+  .text-subtitle {
+    @apply font-semibold text-lg sm:text-xl leading-relaxed tracking-wide;
+  }
+
+  .text-h1 {
+    @apply font-semibold text-lg sm:text-xl leading-relaxed tracking-normal;
+  }
+
+  .text-h2 {
+    @apply font-semibold text-base sm:text-lg leading-snug tracking-normal;
+  }
+
+  .text-h3 {
+    @apply font-semibold text-sm sm:text-base leading-relaxed tracking-normal;
+  }
+
+  .text-largeprint {
+    @apply font-normal text-sm sm:text-base leading-relaxed tracking-wide;
+  }
+
+  .text-body {
+    @apply font-normal text-xs sm:text-sm leading-normal tracking-wide;
+  }
+
+  .text-fineprint {
+    @apply font-normal text-[0.65rem] sm:text-xs leading-snug tracking-wide;
+  }
+
+  .text-button {
+    @apply font-semibold text-xs sm:text-sm leading-relaxed tracking-wide;
+  }
+
+  .text-caption {
+    @apply font-medium text-[0.65rem] sm:text-xs leading-relaxed tracking-wider;
+  }
+}
