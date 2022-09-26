@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,43 +9,87 @@
     @apply font-normal text-7xl sm:text-8xl leading-tight tracking-tight;
   }
 
+  .text-display-bold {
+    @apply text-display font-medium;
+  }
+
   .text-title {
-    @apply font-semibold text-3xl sm:text-4xl leading-tight tracking-normal;
+    @apply font-medium text-3xl sm:text-4xl leading-tight tracking-normal;
+  }
+
+  .text-title-bold {
+    @apply text-title font-bold;
   }
 
   .text-subtitle {
-    @apply font-semibold text-lg sm:text-xl leading-relaxed tracking-wide;
+    @apply font-medium text-lg sm:text-xl leading-relaxed tracking-wide;
+  }
+
+  .text-subtitle-bold {
+    @apply text-subtitle font-bold;
   }
 
   .text-h1 {
-    @apply font-semibold text-lg sm:text-xl leading-relaxed tracking-normal;
+    @apply font-medium text-lg sm:text-xl leading-relaxed tracking-normal;
+  }
+
+  .text-h1-bold {
+    @apply text-h1 font-bold;
   }
 
   .text-h2 {
-    @apply font-semibold text-base sm:text-lg leading-snug tracking-normal;
+    @apply font-medium text-base sm:text-lg leading-snug tracking-normal;
+  }
+
+  .text-h2-bold {
+    @apply text-h2 font-bold;
   }
 
   .text-h3 {
-    @apply font-semibold text-sm sm:text-base leading-relaxed tracking-normal;
+    @apply font-medium text-sm sm:text-base leading-relaxed tracking-normal;
+  }
+
+  .text-h3-bold {
+    @apply text-h3 font-bold;
   }
 
   .text-largeprint {
     @apply font-normal text-sm sm:text-base leading-relaxed tracking-wide;
   }
 
+  .text-largeprint-bold {
+    @apply text-largeprint font-medium;
+  }
+
   .text-body {
     @apply font-normal text-xs sm:text-sm leading-normal tracking-wide;
+  }
+
+  .text-body-bold {
+    @apply text-body font-medium;
   }
 
   .text-fineprint {
     @apply font-normal text-[0.65rem] sm:text-xs leading-snug tracking-wide;
   }
 
+  .text-fineprint-bold {
+    @apply text-fineprint font-medium;
+  }
+
   .text-button {
-    @apply font-semibold text-xs sm:text-sm leading-relaxed tracking-wide;
+    @apply font-medium text-xs sm:text-sm leading-relaxed tracking-wide;
+  }
+
+  .text-button-bold {
+    @apply text-button font-bold;
   }
 
   .text-caption {
     @apply font-medium text-[0.65rem] sm:text-xs leading-relaxed tracking-wider;
+  }
+
+  .text-caption-bold {
+    @apply text-caption font-bold;
   }
 }
