@@ -1,6 +1,6 @@
 {
   "name": "tailwind-typography",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Imraan-Hendricks",
   "description": "Simple, attractive and consistent typography using TailwindCSS",
   "private": true,
@@ -15,6 +15,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.11",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",

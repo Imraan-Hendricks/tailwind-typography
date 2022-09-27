@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 import { twMerge } from 'tailwind-merge';
+import { TypographyDemo } from '../components/TypographyDemo';
 
 const paragaph = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
                   blanditiis tenetur unde suscipit, quam beatae rerum inventore
@@ -8,7 +9,7 @@ const paragaph = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
 
 const Home: NextPage = () => (
   <main>
-    <section className='px-5 py-24 bg-gray-50'>
+    <section className='px-5 py-24'>
       <div className='container mx-auto grid gap-8 text-center'>
         <h1 className='text-title'>Typography</h1>
         <div className='grid gap-8'>
@@ -60,6 +61,7 @@ const Home: NextPage = () => (
         </div>
       </div>
     </section>
+    <TypographyDemo />
   </main>
 );
 
