@@ -12,6 +12,7 @@ export const BoldTypography: FC = () => (
       <h1 className='text-title'>Typography - bold</h1>
       <div className='grid gap-8'>
         <h1 className='text-display-bold'>Text Display</h1>
+        <h1 className='text-headline-bold'>Text Headline</h1>
         <h2 className='text-title-bold'>Text Title</h2>
         <h3 className='text-subtitle-bold'>Text Subtitle</h3>
         <h4 className='text-h1-bold'>H1. Heading One</h4>

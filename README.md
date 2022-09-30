@@ -7,7 +7,7 @@ Typography configuration using TailwindCSS with aim of making typography simple,
 ### Features:
 
 - Typography styles
-- Typography component
+- Typography demonstration
 
 <br />
 

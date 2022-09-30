@@ -12,6 +12,7 @@ export const NormalTypography: FC = () => (
       <h1 className='text-title'>Typography</h1>
       <div className='grid gap-8'>
         <h1 className='text-display'>Text Display</h1>
+        <h1 className='text-headline'>Text Headline</h1>
         <h2 className='text-title'>Text Title</h2>
         <h3 className='text-subtitle'>Text Subtitle</h3>
         <h4 className='text-h1'>H1. Heading One</h4>

@@ -43,10 +43,10 @@ const features = [
 export const TypographyDemo: FC = () => (
   <section className='bg-white px-5 py-24'>
     <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
-      <div className='lg:text-center'>
+      <div className='text-center'>
         <h2 className='text-subtitle text-indigo-600'>{subtitle}</h2>
         <p className='mt-2 text-title text-gray-900'>{title}</p>
-        <p className='mt-4 max-w-2xl text-largeprint text-gray-500 lg:mx-auto'>
+        <p className='mt-4 max-w-2xl text-largeprint text-gray-500 mx-auto'>
           {body}
         </p>
       </div>
